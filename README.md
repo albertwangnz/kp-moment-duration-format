@@ -10,6 +10,16 @@ This plugin does not have any dependencies beyond Moment.js itself, and may be u
 
 ---
 
+## About This Fork
+
+The files test/vendor/jquery.js and test/vender/moment.js contain vulnerabilities that are reported by <a href="https://owasp.org/www-project-dependency-check/">OWASP Dependency-Check</a>. Actually, the test folder is useless in the npm lib (good to develop, but not on build).
+
+There is a <a href="https://github.com/jsmreese/moment-duration-format/pull/136">pull request</a> on the <a href="https://github.com/jsmreese/moment-duration-format.git">origin project</a>. Unfortunately, the origin project is not under-maintained.
+
+Therefore, I created this fork to add the file .npmignore and ignore the test folder from npm registry.
+
+---
+
 ## Formatting Numbers and Testing
 
 Where it is available and functional, this plugin uses either `Intl.NumberFormat#format` or `Number#toLocaleString` to render formatted numerical output. Unfortunately, many environments do not fully implement the full suite of options in their respective specs, and some provide a buggy implementation.
