@@ -1,14 +1,14 @@
 {
-	"name": "moment-duration-format",
-	"version": "2.3.2",
-	"description": "A moment.js plugin for formatting durations.",
+	"name": "kp-moment-duration-format",
+	"version": "2.3.2-kp",
+	"description": "This is a fork of the project jsmreese/moment-duration-format. A moment.js plugin for formatting durations.",
 	"main": "lib/moment-duration-format.js",
 	"repository": {
 		"type": "git",
-		"url": "git://github.com/jsmreese/moment-duration-format.git"
+		"url": "https://github.com/albertwangnz/kp-moment-duration-format.git"
 	},
 	"authors": [
-		"John Madhavan-Reese <jsmreese@gmail.com>"
+		"Albert Wang <albertylw@gmail.com>"
 	],
 	"keywords": [
 		"moment",
@@ -17,7 +17,7 @@
 	],
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/jsmreese/moment-duration-format/issues"
+		"url": "https://github.com/albertwangnz/kp-moment-duration-format/issues"
 	},
-	"homepage": "https://github.com/jsmreese/moment-duration-format"
+	"homepage": "https://github.com/albertwangnz/kp-moment-duration-format"
 }
